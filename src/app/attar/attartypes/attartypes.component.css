@@ -1,0 +1,19 @@
+.row{
+    margin: 5% 30px;
+    }
+    .card{
+        margin: 0 10px;
+        border: none;
+        box-shadow: 0.5px 0.5px 10px #bebebe;
+        text-align: center;
+    }
+    .but{
+        background-color: #b1f55e!important;
+        max-width: 50%;
+        margin: 1% 30% 3% 30%;
+        text-transform: uppercase;
+    }
+    img{
+        height: 500px;
+        max-width: 100%;
+    }

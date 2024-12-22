@@ -1,0 +1,18 @@
+.container-fluid img{
+    height: 50px;
+    width: 150px;
+}
+button{
+    margin: -1px 5px;
+    padding: 1px 20px;
+    background-color: transparent;
+    border-radius: 5px;
+}
+button:hover {
+    background-color: rgb(102, 184, 159);
+    transform: scale(1.1);
+}
+ul li a{
+    color: black;
+    font-size: 15px;
+}

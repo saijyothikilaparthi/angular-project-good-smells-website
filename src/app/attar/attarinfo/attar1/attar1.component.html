@@ -1,0 +1,15 @@
+<app-navbar></app-navbar>
+<div class="container">
+    <div class="row row-cols-1 row-cols-md-4 g-3">
+        <div class="col" *ngFor="let d of details">
+            <div class="card" data-aos="fade-left">
+                <img [src]="d.src" [alt]="d.alt">
+                <h1>{{d.title | uppercase}}</h1>
+                <p>{{d.price | currency:'INR'}}</p>
+                
+                <button class="btn btn-outline-secondary btn-sm">{{d.button}}</button>
+            </div>
+        </div>
+    </div>
+</div>
+<app-footer></app-footer>

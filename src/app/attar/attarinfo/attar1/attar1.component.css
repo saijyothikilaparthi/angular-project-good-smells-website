@@ -1,0 +1,23 @@
+.container{
+    margin: 150px 10%;
+}
+ 
+h1{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+.card-front{
+    padding: 10px;
+    border-radius: 10px;
+    border-color: transparent;
+   
+}
+img{
+    border-radius: 50px;
+}
+.btn .btn-outline-primary{
+border-radius: 50px;
+
+}
